@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
-import { Star, Users, Search, MessageCircle, Trophy, BookOpen, ArrowUp, ChevronDown } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { Star, Users, Search, MessageCircle, 
+  Trophy, BookOpen, ArrowUp, ChevronDown } from "lucide-react";
 
 // CSS to hide scrollbars
 import "./styles.css";
@@ -51,7 +52,7 @@ export default function Index() {
 
 function Navigation() {
   return (
-    <nav className="relative w-full h-24 bg-transparent z-10">
+    <nav className="relative w-full h-24 bg-transparent z-10 bg-slate-500">
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/30"></div>
       <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
         {/* Logo */}
