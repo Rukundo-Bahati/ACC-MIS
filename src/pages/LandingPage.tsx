@@ -96,7 +96,7 @@ function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(../landing.jpg)"
+          backgroundImage: "url(../landing_image.jpg)"
         }}
       >
         <div className="absolute inset-0 bg-black/40"></div>

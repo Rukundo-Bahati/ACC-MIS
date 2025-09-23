@@ -147,7 +147,7 @@ function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(/landing.jpg)"
+          backgroundImage: "url(/landing_img.jpg)"
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
@@ -247,7 +247,7 @@ function AboutSection() {
           <div className="relative">
             <div className="w-full h-96 bg-gray-200 rounded-lg overflow-hidden">
               <img 
-                src="/landing.jpg" 
+                src="/landing_img.jpg" 
                 alt="ICC Campus"
                 className="w-full h-full object-cover"
               />
