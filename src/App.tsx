@@ -21,7 +21,8 @@ import MainLayout from "./components/layout/MainLayout";
 import NotFound from "./pages/NotFound";
 import Courses from "./pages/Courses";
 import Grades from "./pages/Grades";
-import LandingPage from "./pages/LandingPage";
+// import LandingPage from "./pages/LandingPage";
+import ICCLanding from "./pages/ICCLanding";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 
@@ -35,7 +36,7 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<ICCLanding />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
